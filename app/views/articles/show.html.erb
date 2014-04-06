@@ -2,6 +2,6 @@
 <p> <%= @article.body %> </p>
 <p> <%= @article.created_at %></p>
 <p> 
-<%= link_to "Edit", edit_article_path(@article) %>
-<%= link_to "Delete", @article, :confirm => "Are you sure?", :method => :delete %>
+	<%= link_to "Edit", edit_article_path(@article) %>
+	<%= link_to "Delete", @article, :confirm => "Are you sure?", :method => :delete %>
 </p>
